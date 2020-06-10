@@ -12,7 +12,7 @@ const trigger = [
     "what is your name",
     "what call yourself"
   ],
-  ["i love you"],
+  ["Test"],
   ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
   ["bad", "bored", "tired"],
   ["help me", "tell me story", "tell me joke"],
@@ -37,7 +37,7 @@ const reply = [
     "Can you guess?",
     "I don't know actually"
   ],
-  ["I am infinite"],
+  ["Test virker"],
   ["I am just a bot", "I am a bot. What are you?"],
   ["The one true God, JavaScript"],
   ["I am nameless", "I don't have a name"],
@@ -135,7 +135,7 @@ let voices = synth.getVoices();
 function speak(string) {
   let u = new SpeechSynthesisUtterance(string);
   u.text = string;
-  u.lang = "en-US";
+  u.lang = "da-DK";
   u.volume = 1; //0-1 interval
   u.rate = 1;
   u.pitch = 1; //0-2 interval
